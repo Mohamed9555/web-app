@@ -272,7 +272,7 @@ const PORT = process.env.PORT || 3000
 console.log(PORT)
 const host = '0.0.0.0';
 
-app.listen(PORT /*PortNumber*/, () => console.log(`Listeneing on port ${PORT}......`) /* optionally a function that called when the app starts listening to the given port */);
+app.listen(PORT,host, ()=>console.log('Listening'));
 
 
 
